@@ -748,11 +748,41 @@ a img {
             color 200ms ease-in    
 }
 
-.card:hover{
+/* .card:hover{
             transform: scale(1.01);
-        }
+        } */
         
         .card:hover .card__btn{
             background: #1488CC;
             color: white;
+        }
+
+
+
+        /* -----------------------------------------grid for hobbies------------------------------ */
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-auto-rows: auto;
+            grid-template-rows: minmax(300,auto);
+            grid-gap: 10px;
+            margin: 0 2rem;
+        }
+
+         @media screen and (min-width: 970px) and (max-width: 1243px){
+                .grid-container{
+                    grid-template-columns:repeat(3, 2fr);
+                }
+        }
+        @media screen and (min-width: 679px) and (max-width: 969px){
+                .grid-container{
+                    grid-template-columns:repeat(2, 2fr);
+                }
+        }
+
+        @media screen and (min-width: 0px) and (max-width: 679px){
+                .grid-container{
+                    grid-template-columns:repeat(1, 2fr);
+                }
         }
