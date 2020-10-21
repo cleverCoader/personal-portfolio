@@ -42,6 +42,10 @@ strong {
     color: #333
 }
 
+h1{
+    font-size: 2rem;
+}
+
 h2 {
     font-size: 2rem
 }
@@ -328,17 +332,6 @@ a img {
 .devicon-docker-plain.colored {
     color: #019bc6
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -654,7 +647,7 @@ a img {
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem,12rem));
+    grid-template-columns: repeat(auto-fit, minmax(35rem,17rem));
     grid-gap: 2rem;
     justify-content: center;
 }
@@ -670,7 +663,7 @@ a img {
 
 }
 
-@media screen and (min-width: 1210px) and (max-width: 1612px) {
+@media screen and (min-width: 1213px) and (max-width: 1612px) {
   
     .wrapper{
     display: grid;
@@ -681,7 +674,7 @@ a img {
 
 }
 
-@media screen and (min-width: 797px) and (max-width: 1210px) {
+@media screen and (min-width: 797px) and (max-width: 1213px) {
   
     .wrapper{
     display: grid;
@@ -692,22 +685,22 @@ a img {
 
 }
 
-@media screen and (min-width: 463px) and (max-width: 797px) {
+@media screen and (min-width: 421px) and (max-width: 797px) {
   
     .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem,15rem));
+    grid-template-columns: repeat(auto-fit, minmax(17rem,15rem));
     grid-gap: 2rem;
     justify-content: center;
 }
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 398px) {
+@media screen and (min-width: 0px) and (max-width: 421px) {
   
     .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem,14rem));
+    grid-template-columns: repeat(auto-fit, minmax(20rem,15rem));
     grid-gap: 2rem;
     justify-content: center;
 }
@@ -760,6 +753,6 @@ a img {
         }
         
         .card:hover .card__btn{
-            background: rgb(63, 55, 55);
+            background: #1488CC;
             color: white;
         }
